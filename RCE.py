@@ -60,4 +60,4 @@ url_rce = input("[+] Enter the target url: ")
 check_url(url_rce)
 
 command_rce = input("[+] Enter the command to execute: ")
-attack(url_rce, command_rce)import requests
+attack(url_rce, command_rce)
